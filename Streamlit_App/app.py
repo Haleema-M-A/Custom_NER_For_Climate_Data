@@ -5,7 +5,7 @@ import spacy
 #importing libraries for NER
 from spacy import displacy
 
-nlp = spacy.load("custom_climate_ner_model") #loading custom NER model
+nlp = spacy.load("Streamlit_App\custom_climate_ner_model") #loading custom NER model
 
 #library for extracting text from URL
 from newspaper import Article
