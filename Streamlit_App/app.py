@@ -4,7 +4,6 @@ import streamlit as st
 import spacy
 #importing libraries for NER
 from spacy import displacy
-
 nlp = spacy.load("Streamlit_App\custom_climate_ner_model") #loading custom NER model
 
 #library for extracting text from URL
